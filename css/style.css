@@ -78,7 +78,18 @@ body {
 	font-size: 16px;
 }
 }
-
+.top-heading .social-icons .fa-facebook-f{
+	color:#3b5998 !important;
+}
+.top-heading .social-icons .fa-twitter{
+	color:#00acee !important;
+}
+.top-heading .social-icons .fa-linkedin-in{
+	color:#0072B1 !important;
+}
+.top-heading .social-icons .fa-google-plus-g{
+	color:#db4a39 !important;
+}
  
   
    .social-icons ul li a {
