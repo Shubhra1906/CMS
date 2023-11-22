@@ -17,7 +17,7 @@ body {
 }
 
 .top-heading .contact-info {
-	padding-top: 8px;
+	padding-top: 13px;
 }
 
 .top-heading .contact-info a {
@@ -48,16 +48,17 @@ body {
 }
 
 .top-heading .social-icons .icon {
-	width: 45px;
-	height: 45px;
-	font-size: 30px;
+	width: 25px;
+	height: 25px;
+	font-size: 16px;
 	color: #000;
 	text-align: center;
-	line-height: 35px;
-	margin: 0 10px;
+	line-height: 20px;
+	margin: 0 5px;
 	text-shadow: 1px 1px #fff;
 	text-decoration: none;
 	background-color: #fff;
+	box-shadow: 0 4px 4px rgba(254, 254, 254, 0.5);
 	display: block;
 	border-radius: 50%;
 	position: relative;
@@ -78,8 +79,8 @@ body {
 	font-size: 16px;
 }
 }
-.top-heading .social-icons .fa-facebook-f{
-	color:#3b5998 !important;
+.top-heading .social-icons .fa-google{
+	color:#DB4437 !important;
 }
 .top-heading .social-icons .fa-twitter{
 	color:#00acee !important;
@@ -87,8 +88,8 @@ body {
 .top-heading .social-icons .fa-linkedin-in{
 	color:#0072B1 !important;
 }
-.top-heading .social-icons .fa-google-plus-g{
-	color:#db4a39 !important;
+.top-heading .social-icons .fa-github{
+	color:#000 !important;
 }
  
   
@@ -107,6 +108,7 @@ body {
 	border: 3px solid #fff;
 	z-index: 1;
   }
+ 
   
    
 
@@ -140,9 +142,8 @@ body {
 	background-image:url("../images/logo.png");
 	background-repeat: no-repeat;
 	width: 200px;
-	height: 61px;
+	height: 66px;
 	margin-top: 5px;
-	
 }
 
 @media screen and (max-width: 991px) {
@@ -232,7 +233,7 @@ nav.sticky{
 	}
   }
 .banner {
-	background-image:url("../images/banner.jpg");
+	background-image:url("../images/banner2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -277,7 +278,7 @@ nav.sticky{
 }
 
 .banner .opacity_overlay .secondary_layer {
-	background: #191919;
+	background: #01092d;
 	margin-top: 100px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -321,7 +322,7 @@ nav.sticky{
 }
 
 .banner .opacity_overlay .secondary_layer .btn button:hover {
-	background: #000;
+	background: #01092d;
 	color: #fff;
 }
 
@@ -418,8 +419,8 @@ nav.sticky{
 	font-weight: 600;
 }
 
-.services h3 {
-	font-size: 20px;
+.services h4 {
+	font-size: 18px;
 	font-weight: 300;
 	text-align: center;
 	font-family: "Open Sans", Arial, sans-serif;
@@ -1087,7 +1088,6 @@ nav.sticky{
 	font-weight: 400;
 }
 
-
 @media screen and (max-width: 500px) {
 .team .col-xs-6 {
 	width: 100%;
@@ -1101,7 +1101,7 @@ nav.sticky{
 	padding-bottom: 20px;
 }
 
-.team h6.description {
+.team h4.description {
 	font-weight: bold;
 	letter-spacing: 2px;
 	color: #999;
@@ -1391,6 +1391,8 @@ nav.sticky{
 
 .footer p {
 	color: #888;
+	text-align: justify;
+	width: 340px;
 }
 
 .footer ul {
