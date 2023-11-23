@@ -14,7 +14,7 @@
           <div class="forms-wrap">
             <form action="index.html" autocomplete="off" class="sign-in-form">
               <div class="logo">
-                <img src="./images/logo1.png" alt="easyclass" />
+                <img src="./images/logo1.png" alt="CMS" />
                 <h4>CMS</h4>
               </div>
 
@@ -184,11 +184,16 @@
       function auth(){
         var email = document.getElementById("email").value;
         var password = document.getElementById("password").value;
-        if(email == "shubh12@gmail.com" && password == "qwerty"){
+        if(email == "teacher187@gmail.com" && password == "qwerty"){
         
-          window.location.assign("student.html");
+          window.location.assign("teacher.html");
           alert("Successfully Logged In");
       }
+      else if(email == "student12@gmail.com" && password == "qwerty"){
+        
+        window.location.assign("studentdash/student.html");
+        alert("Successfully Logged In");
+    }
       else{ 
         alert("Invalid credentials");
         return;
