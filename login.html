@@ -33,27 +33,30 @@
               <div class="actual-form">
                 <div class="input-wrap">
                   <input
-                    type="text"
-                    minlength="4"
+                    type="email"
+                    name="loginUser"
+                    id="email"
                     class="input-field"
                     autocomplete="off"
                     required
                   />
-                  <label>UserId</label>
+                  <label>Email</label>
                 </div>
 
                 <div class="input-wrap">
                   <input
                     type="password"
                     minlength="4"
+                    name="loginpassword"
+                    id="password"
                     class="input-field"
                     autocomplete="off"
                     required
                   />
-                  <label>Password</label>
+                  <label for="loginPassword">Password</label>
                 </div>
 
-                <input type="submit" value="Sign In" class="sign-btn" />
+                <input type="submit" value="Sign In" class="sign-btn" onclick="auth()">
 
                 <p class="text">
                   Forgotten your password or you login datails?
@@ -177,7 +180,21 @@
     </main>
 
     <!-- Javascript file -->
-
+    <script>
+      function auth(){
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        if(email == "shubh12@gmail.com" && password == "qwerty"){
+        
+          window.location.assign("student.html");
+          alert("Successfully Logged In");
+      }
+      else{ 
+        alert("Invalid credentials");
+        return;
+      }
+    }
+    </script>
     <script src="js/app.js"></script>
   </body>
 </html>
