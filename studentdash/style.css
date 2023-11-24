@@ -299,7 +299,10 @@ main .timetable table{
     text-align: center;
     box-shadow: var(--box-shadow);
     transition: all 300ms ease;
+
 }
+header #profile-btn{display: inline;}
+
 main .timetable span{display: none;}
 main .timetable table:hover{box-shadow: none;}
 main table tbody td{
