@@ -32,8 +32,8 @@
                 <h3>Change Password</h3>
             </a>
             <a href="#">
-                <span class="material-icons-sharp">logout</span>
-                <h3>Logout</h3>
+                <span class="material-icons-sharp" onclick="log()">logout</span>
+                <h3 onclick="log()">Logout</h3>
             </a>
         </div>
         <div id="profile-btn" style="display: none;">
@@ -68,7 +68,12 @@
     </main>
 
 </body>
-
+<script>
+    function log(){
+        window.location.assign("../../index.html");
+          alert("Successfully Logged out");
+    }
+</script>
 <script src="timeTable.js"></script>
 <script src="app.js"></script>
 </html>
